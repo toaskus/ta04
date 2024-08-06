@@ -1,0 +1,124 @@
+body {
+    font-family: 'Pretendard', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 26px;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+#quiz-container, #result-container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Pretendard', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.by-askus {
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Pretendard', Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 26px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-family: 'Pretendard', Arial, sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultChart {
+    margin-top: 30px;
+}
+
+#advice {
+    font-family: 'Pretendard', Arial, sans-serif;
+    font-size: 21px; /* Reduced from 26px to 21px */
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .by-askus {
+        display: block;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        position: static;
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 80px;
+    }
+
+    #quiz-container, #result-container {
+        padding-top: 20px;
+    }
+
+    #resultChart {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #advice {
+        font-size: 16px;
+    }
+}
